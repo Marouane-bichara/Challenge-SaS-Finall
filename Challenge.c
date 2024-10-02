@@ -535,7 +535,7 @@ void TriParleNome()
     {
         for (int j = 0; j < size - 1; j++)
         {
-            if (strcmp(etudiant[j].nom , etudiant[j + 1].nom) == 0)
+            if (strcmp(etudiant[j].nom , etudiant[j + 1].nom) > 0)
             {
                 Etudiants temp;
                 temp = etudiant[j];
