@@ -246,17 +246,17 @@ void lemoyenGeneraldeDepartement()
     if (mathEtudiant > 0)
     {
         math /= mathEtudiant;
-        printf("\n le moyenne general de math est: %f", math);
+        printf("\n le moyenne general de math est: %.2f", math);
     }  
         if (pcEtudiant > 0)
     {
         pc /= pcEtudiant;
-        printf("\n le moyenne general de pc est: %f", pc);
+        printf("\n le moyenne general de pc est: %.2f", pc);
     }
     if (svtEtudiant > 0)
     {
         svt /= svtEtudiant;
-        printf("\n le moyenne general de svt est: %f", svt);
+        printf("\n le moyenne general de svt est: %.2f", svt);
     }
 }
 
@@ -412,6 +412,9 @@ void statics()
     int choix;
     do
     {
+        printf("\n");
+        printf("_______________\n");
+        printf("\n");
         printf("\n1. Le nombre total d'etudiants.");
         printf("\n2. Afficher le nombre d'etudiants dans chaque departement.");
         printf("\n3. Afficher les etudiants ayant une moyenne generale superieure a un certain seuil.");
@@ -509,6 +512,9 @@ void recheacher()
 
     do
     {
+        printf("\n");
+        printf("_______________\n");
+        printf("\n");
         printf("1. Rchercher un etudiant par son nom.\n");
         printf("2. Aficher la list des etudiants inscrits dans un department specifique.\n");
         printf("3. Exite.\n");
@@ -607,6 +613,9 @@ void tri()
     int choix;
     do
     {
+        printf("\n");
+        printf("_______________\n");
+        printf("\n");
         printf("1. Tri par le nome.\n");
         printf("2. tries par moyenne generale.\n");
         printf("3. tries selone moyenne superieur ou egale a 10/20.\n");
