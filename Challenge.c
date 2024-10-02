@@ -72,6 +72,8 @@ int main()
         }
 
     } while (choix != 8);
+
+    return 0;
 }
 
 void UserInfo (int index)
